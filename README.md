@@ -2,7 +2,7 @@
 
 A structured repository for learning **Data Structures & Algorithms (DSA) with Python** and preparing for technical interviews.
 
-The main roadmap is the **LeetCode Top Interview 150** study plan. Problems are organized by difficulty so the learning path is:
+The main roadmap is the official **LeetCode Top Interview 150** study plan: 150 original/classic interview questions covering comprehensive interview topics. The intended learning order is:
 
 **Easy → Medium → Hard**
 
@@ -23,22 +23,48 @@ python-learning-modules/
 │
 ├── README.md
 ├── Easy/
-│   └── README.md
 ├── Medium/
-│   └── README.md
 ├── Hard/
-│   └── README.md
+├── Patterns/
+├── Interview_Notes/
 ├── Templates/
-│   └── solution_template.py
 └── Progress/
-    └── progress.md
 ```
+
+## 🔄 LeetCode → GitHub Sync
+
+This repository is prepared to work with a LeetCode-to-GitHub synchronizer such as **LeetSync**. After you install and connect the extension, accepted LeetCode submissions can be pushed to this repository automatically instead of being copied manually.
+
+Recommended workflow:
+
+```text
+Solve on LeetCode
+      ↓
+Submit
+      ↓
+Accepted ✅
+      ↓
+LeetSync pushes to GitHub
+      ↓
+Review / organize / add notes
+```
+
+### Setup
+
+1. Install the **LeetSync** Chrome extension from the Chrome Web Store.
+2. Give the extension GitHub access.
+3. Sign in to LeetCode if required.
+4. Select this repository: `Rahul-kumar9990/python-learning-modules`.
+5. Solve problems normally on LeetCode.
+6. After an Accepted submission, verify the solution appears in GitHub.
+
+> Keep your GitHub/LeetCode credentials private. Never commit personal access tokens, cookies, session values, or passwords to this repository.
 
 ## 🧠 Learning Order
 
 ### 🟢 Phase 1 — Easy
 
-Complete the Easy problems first and focus on:
+Focus on fundamentals and common patterns:
 
 - Arrays
 - Strings
@@ -53,39 +79,38 @@ Complete the Easy problems first and focus on:
 
 ### 🟡 Phase 2 — Medium
 
-After building confidence with Easy problems, move to Medium problems and focus on recognizing patterns and optimizing solutions.
+After completing the Easy phase, focus on recognizing patterns, choosing appropriate data structures, and optimizing solutions.
 
 ### 🔴 Phase 3 — Hard
 
-Hard problems will be completed after the Easy and Medium sections. The focus is on advanced patterns, optimization, and interview-level problem solving.
+Complete Hard problems after Easy and Medium. Focus on advanced patterns, optimization, and interview-level reasoning.
 
 ## 📝 Problem-Solving Workflow
 
 For every problem:
 
 1. Read and understand the problem
-2. Identify the input, output, and constraints
-3. Try solving it independently
-4. If stuck, study the approach/editorial
+2. Identify inputs, outputs, and constraints
+3. Try solving independently
+4. If stuck, study the editorial/approach
 5. Implement the solution in Python
 6. Test edge cases
 7. Analyze time complexity
 8. Analyze space complexity
 9. Re-solve later without looking at the solution
-10. Commit the final solution to this repository
+10. Keep useful notes in the repository
 
-## 💻 Solution Format
+## 💻 Solution Standard
 
-Each solution should contain:
+Where practical, each problem should contain:
 
-- LeetCode problem name
-- Problem number
+- LeetCode problem number and name
 - Difficulty
 - Topic/pattern
 - Python solution
 - Time complexity
 - Space complexity
-- Short explanation when useful
+- Short explanation / key insight
 
 ## 📊 Progress
 
